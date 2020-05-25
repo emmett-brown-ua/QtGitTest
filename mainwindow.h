@@ -20,5 +20,8 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+
+    QString convertDecimalToX(int digit, int sysIndex);
+    QString remaiderIndex(int remaind);
 };
 #endif // MAINWINDOW_H
